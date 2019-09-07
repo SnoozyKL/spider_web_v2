@@ -29,6 +29,7 @@ body, html {
   border-radius: 10px;
   overflow: hidden;
   position: sticky;
+  border-style: double;
 }
 
 /*
@@ -48,7 +49,12 @@ body, html {
   padding: 5px 10px;
   text-decoration: none;
   font-size: 20px;
+  font-weight: bolder;
   font-style: oblique;
+}
+
+.menu_bar li a:hover {
+  color: white;
 }
 
 /*
@@ -57,14 +63,15 @@ body, html {
 }
 */
 
-li a:hover {
+a:hover {
   /*
   background-image: url(pics/abstract.png);
   background-size: cover;
   background-color: lightgray;
   */
-  background-color: lightgray;
+  background-color: gray;
 }
+
 
 .intro {
   font-style: italic;
@@ -79,6 +86,7 @@ li a:hover {
   padding-right: 10px;
   padding-bottom: 20px;
   color: none;
+  border-style: double;
 }
 
 .links {
@@ -114,11 +122,12 @@ h1 {
   bottom: 10px;
   right: 0;
   position: fixed;
+  border-style: double;
 }
 
 .footer h3 {
   text-decoration-line: underline;
-  color: white;
+  color: black;
 }
 
 .footer ul {
@@ -129,7 +138,7 @@ h1 {
   font-size: 15px;
   padding-left: 0px;
   padding-right: 10px;
-  color: white;
+  color: black;
   float: left;
 }
 
