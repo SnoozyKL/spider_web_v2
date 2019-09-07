@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>About Me</title>
+  <link rel = "stylesheet"
+    type = "text/css"
+    href = "../css/about_me_style.css?v=1.1.9"/>
+    <script type="text/javascript">
+      function onClick() {
+        var x = document.getElementById("currentdate");
+        x.innerHTML = Date();
+      }
+    </script>
+
+</head>
+<body>
+
+  <div class="header">
+    <h1>About Me!</h1>
+  </div>
+
+  <div class="top_pad">
+    <ul class="menu_bar">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="intro">
+    <h1>About Me</h1>
+    <p>Hello! My name is Kevin and I am based in Houston.</p>
+    <p>I graduated from the University of Houston with a bachelor's degree in Computer Information Systems.</p>
+    <p>Here are a list of skills I have learned</p>
+    <div class="today">
+      <button type="button" onclick="onClick()">Today's Date</button>
+    </div>
+    <p id="currentdate">Current Date!</p>
+  </div>
+
+
+  <div class="footer">
+    <h3>Social Media</h3>
+    <ul>
+      <li>Email: snoozykl.github@gmail.com</li>
+      <li><a href="https://www.instagram.com/soulhunterkl/"><img src="../css/pics/instagram2.jpg"></a></li>
+      <li><a href="https://www.linkedin.com/in/kevin-lee-94894b135/"><img src="../css/pics/linkedin.png"></a></li>
+    </ul>
+  </div>
+</body>
+</html>
